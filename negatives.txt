@@ -1,0 +1,16 @@
+./negative_images/2x2.1.jpg
+./negative_images/2x2.2.jpg
+./negative_images/2x2.3.jpg
+./negative_images/2x2.4.jpg
+./negative_images/2x2.5.jpg
+./negative_images/2x2.6.jpg
+./negative_images/2x2.7.jpg
+./negative_images/dodecahedron.1.jpg
+./negative_images/dodecahedron.2.jpg
+./negative_images/dodecahedron.3.jpg
+./negative_images/hybrid.1.jpg
+./negative_images/hybrid.2.jpg
+./negative_images/pyramid.1.jpg
+./negative_images/pyramid.2.jpg
+./negative_images/pyramid.3.jpg
+./negative_images/pyramid.4.jpg
