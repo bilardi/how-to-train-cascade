@@ -2,7 +2,7 @@
 
 This guide is useful to train own haar cascade for [cv2.CascadeClassifier](https://docs.opencv.org/4.9.0/db/d28/tutorial_cascade_classifier.html) of [OpenCV](https://opencv.org/).
 
-***Pay Attention***: **createsamples** and **traincascade** are disabled since OpenCV 4.0. Consider using these apps for training from 3.4 branch for Cascade Classifier. Model format is the same between 3.4 and 4.x.
+***Pay Attention***: **createsamples** and **traincascade** are deprecated since OpenCV 4.0. Consider using these apps for training from 3.4 branch for Cascade Classifier. Model format is the same between 3.4 and 4.x.
 
 It is part of the [educational repositories](https://github.com/pandle/materials) to learn how to use libraries.
 
@@ -28,7 +28,7 @@ ls bin/*cascade*
 cd ../../
 ```
 
-If the ``ls``commands return a file, you are completed the installation of the old applications.
+If the ``ls`` commands return a file, you are completed the installation of the old applications.
 
 ***Pay Attention***: if you use Linux, you may have to change the command ``brew install cmake`` with the details that you can find in the paragraph named Required Packages on the [Tutorial to install on Linux](https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html). In addition, you can take advantage from [stackoverflow](https://stackoverflow.com/questions/52117968/trying-to-compile-opencv-traincascade-for-opencv-3-4-3).
 
@@ -56,7 +56,7 @@ You can use to different approches:
 * to use images cropped at one object
 * to use images where you say where object(s) are
 
-In the second approch, you need to create a file named **info.dat** with the path, how many objects there are and coordinates of the rectangle(s) of the each object.
+In the second approch, you need to create a file named **info.dat** with the path of image, how many objects there are and coordinates of the rectangle(s) of the each object.
 
 In the example below, a record of **info.dat** file: the image *cube.4.jpg* has one object which occupies the entire image, from point (0,0) to point (255,255). 
 
